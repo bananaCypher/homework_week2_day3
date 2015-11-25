@@ -8,7 +8,3 @@ puts "check that empty board does not win: #{win_checker.has_won?(symbol, empty_
 board_with_horizontal = [ [:o,:o,:o], [nil,nil,nil], [nil,nil,nil] ]
 symbol = :o
 puts "check that horizontal row board wins: #{win_checker.has_won?(symbol, board_with_horizontal)} expect to be true."
-
-#New method for win checking
-#Keep scoresheet
-#Implement computer player
