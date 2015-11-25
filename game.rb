@@ -45,7 +45,6 @@ class Game
         puts display_board
     end 
 
-
     private
     def row_to_string(row)
         row_symbols = row.map do |piece|
