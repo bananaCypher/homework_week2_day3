@@ -1,7 +1,10 @@
 require 'pry-byebug'
 require_relative('game')
+require_relative('win_checker')
+
 # Create game
-game = Game.new()
+win_checker_1 = WinChecker.new()
+game = Game.new(win_checker_1)
 
 # Place piece
 game.place_piece(0,0)
